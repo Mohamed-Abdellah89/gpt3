@@ -115,6 +115,7 @@ text-align: center;
     .gpt3__header-content h1{
         font-size: 48px;
         line-height: 60px;
+        letter-spacing: 0;
     }
     .gpt3__header-content p{
         font-size: 16px;
@@ -140,8 +141,8 @@ text-align: center;
 
 @media screen and (max-width: 490px){
     .gpt3__header-content h1{
-        font-size: 36px;
-        line-height: 48px;
+        font-size: 25px;
+        line-height: 36px;
     }
     .gpt3__header-content p {
         font-size: 14px;
