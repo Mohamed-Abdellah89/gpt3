@@ -25,6 +25,7 @@
 
 .gpt3__whatgpt3-feature{
     display: flex;
+    
 }
 
 .gpt3__whatgpt3-feature .gpt3__features-container__feature{
@@ -112,7 +113,7 @@ cursor: pointer;
        max-width: 200px;
     }
 
-}
+} 
 
 @media screen and (max-width: 350px){
     .gpt3__whatgpt3-container .gpt3__features-container__feature{
@@ -127,10 +128,10 @@ cursor: pointer;
 
     .gpt3__features-container__feature-text{
         max-width: 150px;
-     }
+     } 
 }
 
-@media screen and (max-width: 150px){
+ @media screen and (max-width: 150px){
     .gpt3__features-container__feature-text{
        max-width: 100px;
     }
@@ -139,4 +140,4 @@ cursor: pointer;
         font-size: 18px;
         line-height: 25px;
     }
-}
+} 
