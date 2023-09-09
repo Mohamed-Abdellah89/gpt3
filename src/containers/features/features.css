@@ -59,5 +59,6 @@
     .gpt3__features-heading h1{
         font-size: 28px;
         line-height: 38px;
+        width: 300px;
     }
 }
