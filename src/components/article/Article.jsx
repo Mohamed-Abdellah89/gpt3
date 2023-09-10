@@ -4,10 +4,22 @@ import './article.css';
 
 
 
-const Article = () => {
+const Article = ({imgUrl, data, text}) => {
   return (
-    <div>
-        Article
+    <div className='gpt3__blog-container_article'>
+        <div className='gpt3__blog-container_article-image'>
+          <img src={imgUrl} alt="blog" />
+
+        </div>
+        <div className='gpt3__blog-container_article-content'>
+
+          <div>
+            <p>{data}</p>
+            <h3>{text}</h3>
+          </div>
+          <p>Read Full Article</p>
+        </div>
+        
     </div>
   )
 }
